@@ -29,8 +29,8 @@ class Solution {
 
                 }
                 break;
-            } catch (Exception e) {
-                System.out.println("Invalid input and Try again.");
+            } catch (InputMismatchException e) {
+                System.out.println("Error -> " + e);
                 in.nextLine();
 
             }
