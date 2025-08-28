@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.Java Output Formatting/1.Java Output Formatting.iml" filepath="$PROJECT_DIR$/1.Java Output Formatting/1.Java Output Formatting.iml" />
       <module fileurl="file://$PROJECT_DIR$/2.Java Loops I/2.Java Loops I.iml" filepath="$PROJECT_DIR$/2.Java Loops I/2.Java Loops I.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.Java loops II/3.Java loops II.iml" filepath="$PROJECT_DIR$/3.Java loops II/3.Java loops II.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/HackerRank.iml" filepath="$PROJECT_DIR$/.idea/HackerRank.iml" />
     </modules>
   </component>
