@@ -1,17 +1,25 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
 
 public class Solution {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int lineNumber = 1;
+    public static void main(String[] args){
 
-        // Loop until there's no more input
-        while (scanner.hasNextLine()) {
-            String line = scanner.nextLine();
-            System.out.println(lineNumber + " " + line);
-            lineNumber++;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        int numberLine = 0;
+        String line;
+        try{
+        while((line = reader.readLine()) != null ){
+
+                System.out.println(numberLine+line);
+                numberLine++;
+            }
+            }catch(IOException e){
+                System.out.println("Error");
+
+
         }
 
-        scanner.close();
     }
 }
